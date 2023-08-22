@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+body {
+    background-color: #84E1AD;
+    
+}
+
+
+header {
+    background-image: linear-gradient( #37C576, #35BD72, #2FA765, #2EA764, #217546, #1A6038);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin:  -10px;
+
+
+}
+
+header > p {
+    text-align: center;
+}
+
+nav{
+
+    text-align: left;
+    word-spacing: 8px;
+    
+
+}
+
+nav > a {
+    text-decoration:none;
+    color: white;
+    
+
+}
+
+nav > a:hover {
+
+    text-decoration: underline;
+    
+}
+
+#a1 {
+    word-spacing: normal;
+}
+
+#principal {
+    color: #2B6846;
+}
+
+h2 {
+
+    color:#2B6846 ;
+    background-image: linear-gradient(to right, #95d3b0, white);
+}
+
+main {
+
+background-color: white;
+width: 800px;
+margin: 20px;
+padding: 20px;
+border-radius: 5px;
+
+
+}
+
+.externo1 {
+
+    color: #217546;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+#bugdroid {
+
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#video1 {
+    text-align: center;
+    background-color: #217546;
+    padding: 20px;
+    margin: -20px;
+}
+
+#headerextra {
+    text-align: start;
+    padding: 24px;
+    margin: 30px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+
+}
+
+#pextra {
+    color: black;
+    background-color: #aaf4cb;
+    padding: -15px;
+    
+}
+
+#plista {
+
+    text-align: start;
+}
+

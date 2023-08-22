@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(128, 128, 128, 0.638);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+
+    background-color: azure;
+    text-align: center;
+}
+
+nav {
+
+    background-color: rgb(172, 245, 245);
+    text-align: left;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+
+}
+
+main{
+    background-color: white;
+    
+}
+
+h2#Titulo{
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+footer {
+    background-color:rgb(172, 245, 245) ;
+    text-align: center;
+    padding: 1px;
+    border-radius: 2px;
+
+}
+
+section#um {
+    background-color: rgb(136, 126, 126);
+    border-style: dotted;
+
+}
+
+nav#dois{
+
+    text-align: center;
+    text-decoration: none;
+}

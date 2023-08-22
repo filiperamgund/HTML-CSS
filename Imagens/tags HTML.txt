@@ -1,0 +1,3 @@
+<h1></h1>  = Titulos dentro do <body>
+<hr> = insere uma linha horizontal
+<p></p> = Inicia um parágrafo

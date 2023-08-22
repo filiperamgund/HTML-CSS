@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+
+    <style>
+       div > p {
+
+        display: none;
+       }
+
+       div:hover > p {
+        background-color: yellow;
+        display: block;
+        width: 200px;
+        text-align: center;
+       }
+
+       a {
+        text-decoration: none;
+
+       }
+
+       a:hover{
+        text-decoration: underline;
+
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Testando Pseudo Classes</h1>
+
+    <p>Passe o mouse no texto abaixo e verá a mágica acontecer:</p>
+    <div>
+        Passe o mouse aqui...
+        <p>Texto Escondido</p>
+    </div>
+
+
+    <h2>Testando com links</h2>
+
+    <a href="https://www.facebook.com/">Facebook</a>
+
+
+
+
+</body>
+</html>
