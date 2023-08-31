@@ -138,6 +138,7 @@ h1#herois {
 
 #apolopag {
     height: 500px;
+    background-color: #587291;
 
     
 }
@@ -147,8 +148,10 @@ h1#herois {
     height: 500px;
     width: 330px;
     position: absolute;
-    top: 70%;
+    top: 53%;
     left: 50%;
 
     transform: translate(-50%, -50%);
+
+    
 }
