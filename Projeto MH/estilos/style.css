@@ -22,6 +22,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
 
@@ -135,7 +136,19 @@ h1#herois {
     color:#211a1e;
 }
 
-main#herois {
+#apolopag {
+    height: 500px;
 
-    height: auto;
+    
+}
+
+#apolopag > img {
+
+    height: 500px;
+    width: 330px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 }
