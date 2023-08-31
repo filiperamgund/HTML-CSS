@@ -36,7 +36,11 @@ body {
 
 header {
 
-    background-image: url('../imagens/fundo-home.jpg');
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-family: var(--fonte2);
+    text-align: center;
+    padding: 25px;
 }
 
 nav {
@@ -48,6 +52,7 @@ nav {
     text-align: center;
     font-weight: bold;
     
+    
    
 }
 
@@ -56,12 +61,13 @@ nav > a {
     border-radius: 5px;
     color:white;
     
+    
 }
 
 nav >a:hover {
 
     background-color:var(--cor1);
-    padding: 10px;
+    padding: 5px;
     transition: 0.1s;
     transition-duration: 0.4s;
     text-shadow: 5px 2px 5px black;
@@ -75,10 +81,10 @@ main {
     margin-top: 5px;
     border-radius: 0px 0px 10px 10px;
     min-width: 300px;
-    max-width: 800px;
+    max-width: 60vw;
     text-indent: 30px;
     text-align: justify;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.455);
+    box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.637);
     
     
 
@@ -103,7 +109,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 215px;
+    margin-top:220px;
     color: rgb(0, 0, 0);
     font-weight: bold;
 
@@ -119,4 +125,17 @@ footer >p> a {
 footer >p >a:hover {
 
     text-decoration: underline;
+}
+
+
+h1#herois {
+
+    text-align: center;
+    font-family: var(--fonte2);
+    color:#211a1e;
+}
+
+main#herois {
+
+    height: auto;
 }
