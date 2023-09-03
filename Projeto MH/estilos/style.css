@@ -136,6 +136,9 @@ footer >p >a:hover {
 main#herois {
 
     background-color: #211a1e;
+   
+    
+    
 }
 
 
@@ -150,8 +153,11 @@ h1#herois {
 /* Configuração do estilo da página dos herois*/
 .heroispag {
     height: 500px;
-    background-color: #262626;
+    /*background-color: #262626;*/
+    background-image: url('../herois/apolopag/apolo.jpg');
+    background-repeat: repeat-x;
     border-radius: 10px;
+
     
     
 }
