@@ -150,77 +150,64 @@ h1#herois {
 }
 
 
-/* Configuração do estilo da página dos herois*/
-.heroispag {
-    height: 500px;
-    /*background-color: #262626;*/
+/* Configuração da página individual dos herois*/
+
+main.heroispag {
+
+    background-color: #211a1e7e;
+    width: 45vw;
+    min-height: 500px;
+    background-position: auto;
+    font-family: var(--fonte2);
+    color: rgba(255, 255, 255, 0.992);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+body.apolopag {
     background-image: url('../herois/apolopag/apolo.jpg');
-    background-repeat: repeat-x;
-    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-    
-    
 }
 
-.heroispag > img {
-    
-    
-    /*height: 500px;*/
-    /*width: 330px;*/
-    width: 20%;
-    height: 60%;
-    position: absolute;
-    top: 52.8%;
-    left: 50%;
+h1.h1heroispag {
 
-    transform: translate(-50%, -50%);
-
-    box-shadow: 2px 2px 2px black;    
-}
-
-main > h1.h1heroispag {
-    text-align: left;
-    color: white;
     font-family: var(--fonte2);
+    color: white;
     text-shadow: 2px 2px 2px black;
 }
 
-main > h2.h2heroispag {
-    text-align: left;
-    color: white;
-    font-family: var(--fonte2);
-    text-shadow: 2px 2px 2px black;
+h2.h2heroispag2 {
+    text-align:center ;
+    padding-bottom: 20px;
+}
+
+div.skill1 {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    
     
 }
 
-main > h2.h2heroispag2 {
-
-    position: absolute;
-    color: white;
-    font-family: var(--fonte2);
-    text-shadow: 2px 2px 2px black;
-    left: 70%;
-    top: 20%;
+div.skill2 {
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
 }
 
-main > div.skill1 {
-
-    position: absolute;
-    left:65%;
-    top: 30%;
+div.skill3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-main > div.skill2 {
-
-    position: absolute;
-    left: 65% ;
-    top: 42%;
+div.skill4 {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
 }
-
-main > div.skill3 {
-    position: absolute;
-    left: 65%;
-    top: 56%;
-}
-
-/* Fim da confoguração do estilo da página dos herois*/
