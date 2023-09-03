@@ -85,7 +85,8 @@ main#home {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
-    width: 400px;
+    min-width: 200px;
+    max-width: 400px;
     margin-top: 10px;
     border-radius: 5px;
     padding: 5px;
