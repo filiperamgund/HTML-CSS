@@ -7,7 +7,60 @@
 </head>
 <body>
 
-    
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">Estado
+            <option value="" selected>--- Selecione ---</option>
+            <optgroup label="Região Norte">
+                <option value="AM">Amazonas</option>
+                <option value="PA">Pará</option>
+                <option value="RN">Rondonia</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="PE">Pernambuco</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+            </optgroup>
+
+            <optgroup label="Região Sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+        </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Barbeiro</option>
+                <option>Desenvolvedor</option>
+                <option>Policia</option>
+                <option>Advogado</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua Mensagem aqui..."></textarea>
+        </p>
+
+
+
+        <p>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+
+    </form>
+
+   
     
 </body>
 </html>
