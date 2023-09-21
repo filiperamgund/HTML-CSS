@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+/* Estilo para impressão*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+header {
+    display: none;
+}
+
+body {
+    text-align: justify;
+    font-style: italic;
+
+}
+
+footer {
+
+    display: none;
+}
